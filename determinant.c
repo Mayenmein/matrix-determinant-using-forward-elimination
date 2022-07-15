@@ -2,7 +2,7 @@
 #include<math.h>
 
 // Function to input system from the user
-void inputSystem(int n, float a[n][n])
+void inputMatrix(int n, float a[n][n])
 {
     printf("\nInput the elements of the matrix: \nInput the elements of each row separated by a comma and press the 'enter' key to move to the next row\n"); // Ask for the matrix of coefficients
     //Loop to input the matrix of coefficients from the user
@@ -83,7 +83,7 @@ int main()
     printf("Enter the number of rows in the matrix: ");
     scanf("%d",&n);
     float a[n][n];
-    inputSystem(n,a);
+    inputMatrix(n,a);
     printMatrix(n,a);
     det = determinant(n,a);
     printf("The determinant of the matrix is %d\n",det);
