@@ -4,7 +4,7 @@
 // Function to input system from the user
 void inputMatrix(int n, float a[n][n])
 {
-    printf("\nInput the elements of the matrix: \nInput the elements of each row separated by a comma and press the 'enter' key to move to the next row\n"); // Ask for the matrix of coefficients
+    printf("\nInput the elements of the matrix: \nInput the elements of each row separated by a space and press the 'enter' key to move to the next row\n"); // Ask for the matrix of coefficients
     //Loop to input the matrix of coefficients from the user
     for(int row=0;row<n;row++) // Loop through the rows of the matrix.
     {
